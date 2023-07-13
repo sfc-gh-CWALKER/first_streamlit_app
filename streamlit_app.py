@@ -50,7 +50,7 @@ try:
 
 
 # dont run anything past here while we troubleshoot
-
+streamlist.stop()
 
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
